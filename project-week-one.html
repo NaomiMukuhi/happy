@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>project one</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dimgrey;
+  padding: 10px;
+  font-family: monospace;
+  font-size: x-large;
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 23%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: silver;
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN -->
+<div class="main">
+
+<h1>portifolio-project</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>hello there, i am learning student of software development.</p>
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/HTML.jpg" alt="picture" style="width:100%">
+      <h3>My interest;</h3>
+      <p>some of my interests include calligraphy which i enjoy a lot, second one would be Artificial Intelligence which i find very interesting and eager to see how it will change the future, thirdly is video games and how they are designed as i do want to design one in the enar future so i might have a lot of studying ahead.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/css.jpg" alt="picture" style="width:100%">
+      <h3>My hobbies</h3>
+      <p>some of my hobbies would include the following; birdwatching, writing novels, watching movies, drawing and sketching cartoon figures. i also listen to music a lot, very calming.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/js.jpg" alt="picture" style="width:100%">
+      <h3>My skills</h3>
+      <p>as of this moment, i have learned to use HTML and CSS, next will be javascript and hopefully add in addtion to the mentioned above will be python and java.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/python.jpg" alt="picture" style="width:100%">
+      <h3>why i chose to study at moring;</h3>
+      <p>the offered online classes and it is convient consindering the current state of the world, plus it came with a self paced learning and study which was helpful to me.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="content">
+  <img src="images/picfourteen.jpg" alt="myself" style="width:80%" style="height: 80%;">
+  <h3>about me;</h3>
+  <p>my names are Naomi Mukuhi.little bit about my background would be i grew up around mount kenya highlands or kieni east most of my life was spent there as primy school and secondary education took place around that area.
+  </p>
+  <p>i work better and at my own pace when i am alone with no disruptions, enjoy listening to music as i work as it helps in calming my mood down enabling me work much more effectively. i cant work under pressure or in a situtation i am always rushed.</p>
+  <p>i have always been curious of how webpages responds and how to work bbuild or create one, now that i am learning it is very interesting and i am enjoying it.</p>
+</div>
+
+<div class="content">
+  <h3>some projects i have worked on;</h3>
+  <p>they include<br><a href="https://github.com/NaomiMukuhi/waddle"/a>which was the very first one.</p>
+    <p>the second one did work on and uploaded onto the github is <a href="https://github.com/NaomiMukuhi/potato"/>though with several issues with it.</p>
+      <p>third one is and did commit safely is  <a href="https://github.com/NaomiMukuhi/duper"/a> though mixed with some old and new files and some files uncompleted.</p>
+</div>
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
