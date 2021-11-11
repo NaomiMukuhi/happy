@@ -1,3 +1,37 @@
-.body {
- background-color: blue;
-}
+.body{
+			background-repeat:no-repeat;
+			background-size:cover;
+		}
+.h2 {
+     color:black;
+     font-family:cursive;
+     font-size: 120%;
+     text-align: center;
+    }
+.h5 {
+     color: black;
+     font-family:cursive;
+     font-size: 120%;
+     text-align: center;
+     }
+.p1 {
+     color: black;
+     font-family: cursive;
+     font-size: 110%;
+     float: left;
+    }
+.p2 {
+     color: black;
+     font-family: cursive;
+     font-size: 110%;
+	   text-align:center;
+    }
+
+.p3 {
+     color: black;
+     font-family: cursive;
+     font-size: 110%;
+		 text-align:center;
+    } 
+.
+			
